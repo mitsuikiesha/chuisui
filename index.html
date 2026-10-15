@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+
+<!--
+CHECKLIST (matches the grading rubric)
+  [ ] Proper document structure (DOCTYPE, html, head, body)
+  [ ] Semantic tags: header, nav, main, footer
+  [ ] One h1 and at least two h2 headings
+  [ ] At least one paragraph about yourself
+  [ ] At least one image
+  [ ] At least one list
+  [ ] A table (for example, your class schedule)
+  [ ] At least one link to a website you like
+  [ ] style.css is linked and has at least 5 different style rules
+  [ ] Flexbox is used to arrange part of the page
+  [ ] At least 3 comments of your own explaining your code
+  [ ] Reflection written (reflection.txt)
+-->
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Get to know Chewy :3</title>
+
+  <!--
+    <link rel="stylesheet" href="style.css">
+    Connects this HTML file to your CSS file. Without this line,
+    your styles will NOT work.
+    Note: href must match your CSS file's name exactly: style.css
+  -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+
+    <h1>🎀 Mitsui Kiesha Bueno Bongay 🎀</h1>
+
+    <p>A very coquette first year BS Computer Science student</p>
+
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#schedule">Schedule</a></li>
+        <li><a href="#favorites">Favorites</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ------------- SECTION 1: ABOUT ME ------------- -->
+    <section id="about">
+      <h2>♡ About Me ♡</h2>
+
+      <img src="images/sui.HEIC" alt="My most recent glam" width="200">
+
+      <p>
+        Hello! My name is <strong>Mitsui Kiesha Bueno Bongay</strong>. I am a first-year BSCS
+        student at Bicol University. I am 18 years old, born on July 10, 2008. I'm from Tabaco City, Albay. I have a strong interest in software development. My curiosity about technology originally started through playing video games, which sparked my interest in how complex digital systems work behind the scenes. While I'm exploring various areas within computer science, I'm particularly hoping to learn more about game development and the tech that powers interactive experiences.
+      </p>
+
+<!-- YOUR COMMENT 1: The <img> tag is used to insert an image into a webpage. It uses the 'src' attribute to define where the image file is located and the 'alt' attribute to provide a description of the image for web accessibility or if the file fails to load. -->
+
+    </section>
+
+    <!-- ------------- SECTION 2: HOBBIES AND GOALS ------------- -->
+    <section id="hobbies">
+      <h2>♡ My Hobbies and Goals ♡</h2>
+
+      <h3>Hobbies</h3>
+      <ul>
+        <li>Reading web novels</li>
+        <li>Playing video games</li>
+        <li>Doing my makeup</li>
+        <li>Listening to music</li>
+        <li>Doomscrolling</li>
+        <li>Watching shows and movies</li>
+        <li>Playing with my pet cats</li>
+      </ul>
+
+      <h3>My Top 3 Goals</h3>
+      <ol>
+        <li>Graduate from college</li>
+        <li>Get rich and travel the world</li>
+        <li>Enjoy life with no regrets</li>
+      </ol>
+    </section>
+
+    <!-- ------------- SECTION 3: CLASS SCHEDULE (TABLE) ------------- -->
+    <section id="schedule">
+      <h2>♡ My Class Schedule ♡</h2>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Subject</th>
+            <th>Day</th>
+            <th>Time</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>CS 101: Introduction to Computing</td>
+            <td>Monday, Wednesday</td>
+            <td>7:30AM-9:00AM</td>
+          </tr>
+          <tr>
+            <td>PHYS 1: Physics for Computing</td>
+            <td>Tuesday, Thursday</td>
+            <td>9:00AM-10:30AM</td>
+          </tr>
+          <tr>
+            <td>CS 102: Computer Programming</td>
+            <td>Monday, Wednesday<br>Thursday</td>
+            <td>9:00AM-12:00PM<br>1:00PM-3:00PM</td>
+          </tr>
+          <tr>
+            <td>MATH 101: Mathematical Analysis</td>
+            <td>Tuesday, Thursday<br>Friday</td>
+            <td>10:30AM-12:00PM<br>8:00AM-10:00AM</td>
+          </tr>
+          <tr>
+            <td>PATHFit 1: Movement Competency Training</td>
+            <td>Thursday</td>
+            <td>7:00AM-9:00AM</td>
+          </tr>
+          <tr>
+            <td>GEC 11: Understanding the Self</td>
+            <td>Friday</td>
+            <td>1:00PM-4:00PM</td>
+          </tr>
+          <tr>
+            <td>NSTP 11: Literacy Training Service</td>
+            <td>Saturday</td>
+            <td>8:00AM-11:00AM</td>
+          </tr>
+        </tbody>
+      </table>
+
+<!-- YOUR COMMENT 2: These tags structure an HTML table: <tr> creates a table row, <th> defines a header cell (usually bold and centered) at the top of a column, and <td> defines a standard data cell where text or content is placed. -->
+
+    </section>
+
+    <!-- ------------- SECTION 4: FAVORITES (LINK) ------------- -->
+    <section id="favorites">
+      <h2>♡ My Favorites ♡</h2>
+
+      <p>
+        I enjoy visiting
+        <a href="https://www.novelupdates.com" target="_blank" rel="noopener">Novel Updates</a>
+        because this is where I find all the novels I like.
+      </p>
+
+      <p>
+        I enjoy visiting
+        <a href="https://www.nexusmods.com" target="_blank" rel="noopener">Nexus Mods</a>
+        because this is where I find all the mods I like for my favorite game, Stardew Valley.
+      </p>
+
+      <p>
+        I enjoy visiting
+        <a href="https://www.github.com" target="_blank" rel="noopener">GitHub</a>
+        because this is where I find all the projects I like.
+      </p>
+
+<!-- YOUR COMMENT 3: The href (Hypertext Reference) attribute defines the destination address or link target for an <a> (anchor) tag, telling the browser where to take the user when they click the link. -->
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Made by Mitsui Kiesha B. Bongay for CS 101, Bicol University. 🌸</p>
+  </footer>
+
+</body>
+</html>
